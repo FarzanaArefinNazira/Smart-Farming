@@ -1,0 +1,29 @@
+
+*{
+   margin: 0px;
+   padding: 0px;
+   box-sizing: border-box;
+}
+body{
+	font-size: 20px;
+	overflow-x: hidden;
+	color: black;
+	font-family: 'Flamenco', cursive;
+}
+
+header{
+	background-image:linear-gradient(rgba(0.5,0.7,0,0),rgba(0,0.5,0,0)),url('../images/laptop.jpg');
+	background-size: cover;
+     background-repeat: no-repeat;
+	height:100vh;
+}
+
+.main-content-header{
+
+	width: 1180px;
+	position: absolute;
+	/*border: 0.1px solid orange*/;
+	top:55%;
+	left:50%;
+	transform: translate(-50%,-50%);
+}
